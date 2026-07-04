@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>루밍 (Luming) — 지원</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+      line-height: 1.7;
+      color: #1c1c1e;
+      background: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #f2f2f7; background: #000000; }
+      a { color: #64d2ff; }
+      .card { background: #1c1c1e; }
+    }
+    h1 { font-size: 28px; margin-bottom: 4px; }
+    .sub { color: #8e8e93; margin-top: 0; }
+    h2 { font-size: 18px; margin-top: 40px; }
+    a { color: #007aff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: #f2f2f7;
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-top: 16px;
+    }
+    ul { padding-left: 20px; }
+    footer { margin-top: 56px; color: #8e8e93; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h1>루밍 (Luming)</h1>
+  <p class="sub">지금 시간과 날씨에 맞춘 짧은 웰니스 추천</p>
+
+  <h2>문의 및 지원</h2>
+  <div class="card">
+    <p>루밍 사용 중 문제나 문의사항이 있으면 아래로 연락 주세요.</p>
+    <p><strong>이메일:</strong>
+      <a href="mailto:mytjdcjf@gmail.com">mytjdcjf@gmail.com</a>
+    </p>
+  </div>
+
+  <h2>루밍이란?</h2>
+  <p>
+    루밍은 지금 시간과 실시간 날씨에 맞춰 하루 1~3개의 짧은 오프라인 웰니스
+    활동(스트레칭·명상·호흡·산책·집중·움직임·휴식)을 추천하는 앱입니다.
+    모든 추천은 기기 안에서 처리되며, 5~20분 안에 부담 없이 실천할 수 있습니다.
+  </p>
+
+  <h2>자주 묻는 질문</h2>
+  <ul>
+    <li><strong>위치 권한은 왜 필요한가요?</strong><br />
+      현재 위치의 날씨를 조회하기 위해서만 사용합니다. 대략적 위치만 쓰며,
+      좌표는 소수점 첫째 자리까지만 사용하고 서버로 전송하지 않습니다.
+      위치를 허용하지 않아도 시간 기반 추천은 정상 동작합니다.</li>
+    <li><strong>알림은 어떻게 오나요?</strong><br />
+      하루 중 아침·오후·저녁 시간대에 짧은 휴식을 권하는 알림이 옵니다.
+      알림 권한은 선택이며, 언제든 시스템 설정에서 끌 수 있습니다.</li>
+    <li><strong>제 데이터는 어떻게 되나요?</strong><br />
+      루밍은 사용 기록을 수집하거나 서버로 보내지 않습니다.
+      자세한 내용은 <a href="./privacy/">개인정보처리방침</a>을 참고하세요.</li>
+  </ul>
+</body>
+</html>
